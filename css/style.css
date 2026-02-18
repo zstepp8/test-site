@@ -1,9 +1,11 @@
-﻿body {
-
+﻿html, body {
 	background-color: #6cfce6;
 	font-family: Arial, sans-serif;
 	text-align: center;
-
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 .title-block {
@@ -93,4 +95,14 @@
 }
 .side-panel-button:hover {
 	background-color: #52bdac
+}
+
+.resume-embed {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: calc(100vw - 20vh);
+	height: 100vh;
 }
